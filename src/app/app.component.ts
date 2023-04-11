@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ctb-model-map';
+  constructor(){
+    setTimeout(() => {
+      this.title = "Chnaged" 
+    }, 2000);
+  }
 }
