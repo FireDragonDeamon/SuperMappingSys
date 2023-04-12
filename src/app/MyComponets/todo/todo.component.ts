@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class TodoComponent {
 
+title = 'todo'
+  constructor(){
+    setTimeout(() => {
+      this.title = "Chnaged" 
+    }, 2000);
+  }
+
 }
